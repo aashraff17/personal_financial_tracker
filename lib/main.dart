@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:personal_financial_tracker/screens/transctions/transactions_screen.dart';
 import 'screens/goal/goals_screen.dart'; // This imports your new screen
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       // CHANGE THIS LINE BELOW:
       // We changed 'MyHomePage' to 'GoalsScreen'
-      home: const GoalsScreen(),
+      home: const TransactionsScreen(),
     );
   }
 }
